@@ -253,6 +253,8 @@ Use `discord.actions.*` to disable action groups:
 
 ### Search messages
 
+**Note:** Queries are simple keyword matching; don’t use boolean operators like `OR` — run multiple searches instead.
+
 ```json
 {
   "action": "searchMessages",
